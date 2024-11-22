@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to RTK tutorial" });
+  res.status(200).json({ message: "Welcome to Soft solution test server" });
 });
 
 app.use(cors());
